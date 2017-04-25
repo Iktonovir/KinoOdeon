@@ -1,3 +1,14 @@
 <resources>
+
+    <!-- Activity_main.xml strings -->
+
     <string name="app_name">Kino Odeon</string>
+
+    <string name="odeon_cinema">Odeon Cinema</string>
+
+    <string name="address">1142 Sofia, Bulgaria</string>
+
+    <string name="hours">1-10 pm every day</string>
+
+    <string name="book_now">Book Now: 02/12345678</string>
 </resources>

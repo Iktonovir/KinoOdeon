@@ -8,4 +8,65 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="main_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/main_layout_background</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:padding">@dimen/image_view_padding</item>
+    </style>
+
+    <style name="text_view_one">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/text_view_background</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_margin">@dimen/text_view_one_layout_margin</item>
+        <item name="android:padding">@dimen/text_view_one_padding</item>
+        <item name="android:textSize">@dimen/text_view_one_textSize</item>
+    </style>
+
+    <style name="linear_layout_sub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/linear_layout_sub_padding</item>
+    </style>
+
+    <style name="sub_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/sub_text_view_textSize</item>
+        <item name="android:padding">@dimen/sub_text_view_padding</item>
+    </style>
+
+    <style name="location_time">
+        <item name="android:layout_width">@dimen/location_time_layout_width</item>
+        <item name="android:layout_height">@dimen/location_time_layout_height</item>
+
+    </style>
+    <style name="movie">
+        <item name="android:layout_width">@dimen/movie_layout_width</item>
+        <item name="android:layout_height">@dimen/movie_layout_height</item>
+
+    </style>
+    <style name="text_view_two">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/text_view_background</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_margin">@dimen/text_view_one_layout_margin</item>
+        <item name="android:padding">@dimen/text_view_one_padding</item>
+        <item name="android:textSize">@dimen/text_view_two_textSize</item>
+    </style>
+
 </resources>

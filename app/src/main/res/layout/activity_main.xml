@@ -1,98 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.kinoodeon.MainActivity">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_kino_odeon"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:background="#ECEFF1"
+    style="@style/main_layout"
     tools:context="com.example.user.kinoodeon.MainActivity">
 
     <ImageView
         android:src="@drawable/kinoodeon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:padding="6dp" />
+        style="@style/image_view" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#B0BEC5"
-        android:padding="6dp"
-        android:text="Odeon Cinema"
-        android:textColor="#000000"
-        android:textSize="23sp"/>
+        style="@style/text_view_one"
+        android:text="@string/odeon_cinema"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+        style="@style/linear_layout_sub">
 
     <ImageView
         android:src="@drawable/pin"
-        android:layout_width="18dp"
-        android:layout_height="18dp" />
+        style="@style/location_time"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1142 Sofia, Bulgaria"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        android:padding="12dp"/>
+        android:text="@string/address"
+        style="@style/sub_text_view"/>
 
     <ImageView
         android:src="@drawable/clock"
-        android:layout_width="18dp"
-        android:layout_height="18dp" />
+        style="@style/location_time" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1-10 pm every day "
-        android:textColor="#000000"
-        android:textSize="16sp"
-        android:padding="12dp"/>
+        android:text="@string/hours"
+        style="@style/sub_text_view"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:padding="5dp">
+        style="@style/linear_layout_sub">
 
     <ImageView
         android:src="@drawable/arrival"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        style="@style/movie"/>
 
     <ImageView
         android:src="@drawable/bluejasmine"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        style="@style/movie"/>
 
     <ImageView
         android:src="@drawable/exmachina"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
+        style="@style/movie"/>
 
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#B0BEC5"
-        android:layout_margin="10dp"
-        android:padding="6dp"
-        android:text="Book Now: 02/12345678"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+        android:text="@string/book_now"
+        style="@style/text_view_two"/>
 
 </LinearLayout>
+</ScrollView>
 
