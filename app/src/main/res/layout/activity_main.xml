@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kino_odeon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ECEFF1"
+    tools:context="com.example.user.kinoodeon.MainActivity">
+
+    <ImageView
+        android:src="@drawable/kinoodeon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#B0BEC5"
+        android:padding="6dp"
+        android:text="Odeon Cinema"
+        android:textColor="#000000"
+        android:textSize="23sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <ImageView
+        android:src="@drawable/pin"
+        android:layout_width="18dp"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1142 Sofia, Bulgaria"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    <ImageView
+        android:src="@drawable/clock"
+        android:layout_width="18dp"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-10 pm every day "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+    <ImageView
+        android:src="@drawable/arrival"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:src="@drawable/bluejasmine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:src="@drawable/exmachina"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B0BEC5"
+        android:layout_margin="10dp"
+        android:padding="6dp"
+        android:text="Book Now: 02/12345678"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
